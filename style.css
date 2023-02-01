@@ -1,5 +1,32 @@
-/*COLORS:
-Header background - #FFDBAA
-button - #805215
-Header Text - #553100
-Main background - #D4A76A*/
+h1 {
+    background-color: #FFDBAA;
+    border: 2px solid #000000;
+    color: #805215;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 50px;
+  } 
+
+  .h1-text {
+  flex-grow: 1;
+  text-align: left;
+  }
+
+  .h1-buttons {
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+button {
+    background-color: #805215;
+    border: 1px solid #333333;
+    font-weight: bold;
+    padding: 20px 25px;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+Main background{
+    Main-Backround: #D4A76A;
+}
