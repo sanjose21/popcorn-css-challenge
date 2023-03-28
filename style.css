@@ -1,62 +1,41 @@
-h1 {
-    background-color: #FFDBAA;
-    border: 2px solid #000000;
-    color: #805215;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 50px 50px;
-  } 
-
-  .h1-text {
-  flex-grow: 1;
-  text-align: left;
-  }
-
-  .h1-buttons {
-    display: flex;
-    justify-content: flex-end;
-    
-  }
-button {
-    background-color: #805215;
-    border: 1px solid #333333;
-    font-weight: bold;
-    padding: 20px 25px;
-    text-transform: uppercase;
-    color: white;
-    
-}
-
-body{
-    background-color: #D4A76A;
-}
-
-fieldset{
-  border: 1px solid #333333;
-  margin: 20px;
-  padding: 20px;
-
-}
-
-legend {
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-h2 {
-  background-color: #D4A76A;
-  border: 2px solid #000000;
-  color: #805215;
-  display: flex;
-  justify-content: flex-end;
-  padding: 50px 50px;
-} 
-
-.h2-button {
-  background-color: #ffffff;
-  border: 1px solid #333333;
-  color: #333333;
-  padding: 5px 10px;
-  text-transform: uppercase;
-}
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Puerto Rico Airlines</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-title">Puerto Rico Airlines</div>
+      <div class="header-buttons">
+        <button class="header-button">HOME</button>
+        <button class="header-button">FLIGHTS</button>
+        <button class="header-button">SUPPORT</button>
+        <button class="header-button">LOGIN</button>
+      </div>
+    </div>
+    <div class="second-row">
+      <div class="box">
+        <div class="box-title">FLIGHTS</div>
+        <div class="box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed auctor commodo libero ut fringilla.</div>
+        <button class="box-button">Let's Go</button>
+      </div>
+      <div class="box">
+        <div class="box-title">GROUP TRIPS</div>
+        <div class="box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed auctor commodo libero ut fringilla.</div>
+        <button class="box-button">Group Rates</button>
+      </div>
+      <div class="box">
+        <div class="box-title">DISCOUNT FLIGHTS</div>
+        <div class="box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed auctor commodo libero ut fringilla.</div>
+        <button class="box-button">Jump In</button>
+      </div>
+    </div>
+    <div class="third-row">
+      <div class="about-us">
+        <div class="about-us-title">About Us</div>
+        <div class="about-us-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed auctor commodo libero ut fringilla.</div>
+        <button class="about-us-button">Learn More</button>
+      </div>
+    </div>
+  </body>
+</html>
